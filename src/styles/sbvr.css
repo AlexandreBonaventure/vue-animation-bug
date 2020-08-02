@@ -1,0 +1,192 @@
+
+.f-display {
+    font-family: var(--fontSansSerif);
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.f-title {
+  font-family: var(--fontSansSerif);
+  font-size: 2.2rem;
+  line-height: 2.4rem;
+  font-weight: 600;
+}
+.f-subtitle {
+    font-family: var(--fontSansSerif);
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    font-weight: 600;
+}
+.f-header {
+    font-family: var(--fontSansSerif);
+    color: var(--colorMedium);
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    font-weight: 600;
+}
+
+.f-body {
+    font-family: var(--fontSansSerif);
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    font-weight: 400;
+    &.b {
+      font-weight: 600;
+    }
+}
+.f-instructions {
+    font-family: var(--fontSansSerif);
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    font-weight: 600;
+    color: var(--colorMedium);
+}
+.f-label {
+    font-family: var(--fontSansSerif);
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    font-weight: 600;
+}
+.f-tiny {
+    font-family: var(--fontSansSerif);
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 600;
+    color: var(--colorMedium);
+}
+
+
+/* colors  */
+.darkest {
+  /* --localColor: var(--colorDarkest); */
+  color: var(--colorDarkest);
+}
+.dark {
+  /* --localColor: var(--colorDark); */
+  color: var(--colorDark);
+}
+.medium {
+  /* --localColor: var(--colorMedium); */
+  color: var(--colorMedium);
+}
+.light {
+  /* --localColor: var(--colorLight); */
+  color: var(--colorLight);
+}
+.lightest {
+  /* --localColor: var(--colorLightest); */
+  color: var(--colorLightest);
+}
+.white {
+  color: white;
+}
+
+.red {
+  color: var(--colorSBRedFlat);
+}
+.green {
+  color: var(--colorSuccessFlat);
+}
+.blue {
+  color: var(--colorInfoFlat);
+}
+.orange {
+  color: var(--colorErrorFlat);
+}
+
+.bg-darkest {
+  background-color: var(--colorDarkest);
+}
+.bg-dark {
+  background-color: var(--colorDark);
+}
+.bg-medium {
+  background-color: var(--colorMedium);
+}
+.bg-light {
+  background-color: var(--colorLight);
+}
+.bg-lightest {
+  background-color: var(--colorLightest);
+}
+
+.bg-red {
+  background-color: var(--colorSBRedFlat);
+}
+.bg-blue {
+  background-color: var(--colorInfoFlat);
+}
+.bg-green {
+  background-color: var(--colorSuccessFlat);
+}
+.bg-orange {
+  background-color: var(--colorErrorFlat);
+}
+.bg-gold {
+  background-color: #bc8c14;
+}
+.bg-gradient-red {
+  background: var(--colorSBRed);
+}
+.bg-info {
+  background: var(--colorInfo);
+}
+.bg-success {
+  background: var(--colorSuccess);
+}
+.bg-error {
+  background: var(--colorError);
+}
+
+.b--light {
+  border-color: var(--colorLight);
+}
+.b--darkest {
+  border-color: var(--colorDarkest);
+}
+
+.fill-inherit {
+  fill: inherit;
+}
+.fill-darkest {
+  fill: var(--colorDarkest);
+}
+.fill-dark {
+  fill: var(--colorDark);
+}
+.fill-medium {
+  fill: var(--colorMedium);
+}
+.fill-light {
+  fill: var(--colorLight);
+}
+.fill-lightest {
+  fill: var(--colorLightest);
+}
+.fill-white {
+  fill: var(--colorWhite);
+}
+.fill-blue {
+  fill: var(--colorInfoFlat);
+}
+.fill-red {
+  fill: var(--colorSBRedFlat);
+}
+.fill-green {
+  fill: var(--colorSuccessFlat);
+}
+.fill-error {
+  fill: var(--colorErrorFlat);
+}
+.fill-black {
+  fill: black;
+}
+
+.shadow-0 {
+  box-shadow: var(--dropShadow);
+}
+.shadow-1 {
+  box-shadow: var(--lightDropShadow);
+}

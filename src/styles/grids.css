@@ -1,0 +1,106 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid-5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.grid-6 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.grid-7 {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+.grid-8 {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+.grid-9 {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+}
+.grid-10 {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+.grid-11 {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+}
+.grid-12 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.span-2 { grid-column: span 2; }
+.span-3 { grid-column: span 3; }
+.span-4 { grid-column: span 4; }
+.span-5 { grid-column: span 5; }
+.span-6 { grid-column: span 6; }
+.span-7 { grid-column: span 7; }
+.span-8 { grid-column: span 8; }
+.span-9 { grid-column: span 9; }
+.span-10 { grid-column: span 10; }
+.span-11 { grid-column: span 11; }
+.span-12 { grid-column: span 12; }
+.span-all { grid-column: 1 / -1; }
+
+.gap-extra-small { grid-gap: var(--spacing-extra-small); }
+.gap-small { grid-gap: var(--spacing-small); }
+.gap-medium { grid-gap: var(--spacing-medium); }
+.gap-large { grid-gap: var(--spacing-large); }
+.gap-extra-large { grid-gap: var(--spacing-extra-large); }
+.gap-extra-extra-large { grid-gap: var(--spacing-extra-extra-large); }
+.gap-extra-extra-extra-large { grid-gap: var(--spacing-extra-extra-extra-large); }
+
+.justify-self-start {
+  justify-self: start;
+}
+
+.justify-self-end {
+  justify-self: end;
+}
+
+.justify-self-center {
+  justify-self: center;
+}
+
+.justify-items-start {
+  justify-items: start;
+}
+
+.justify-items-end {
+  justify-items: end;
+}
+
+.justify-items-center {
+  justify-items: center;
+}
+
+.align-self-start {
+  align-self: start;
+}
+
+.align-self-end {
+  align-self: end;
+}
+
+.align-self-center {
+  align-self: center;
+}

@@ -1,0 +1,14 @@
+@import "./styles/index.css";
+
+@import 'animate.css';
+/* This is using a custom build of animate.css https://github.com/springboardVR/animate.css */
+/* this fork remove a couple of unneeded animations */
+/* If you need to add more animations just edit the fork, when you push it will do everything for you */
+/* Just run yarn again here to make the change effective  */
+
+.animated-150 {
+  --animate-duration: 150ms;
+}
+.animated-300 {
+  --animate-duration: 300ms;
+}

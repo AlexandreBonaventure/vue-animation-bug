@@ -1,0 +1,35 @@
+:root {
+  --colorDarkest: #182942;
+  --colorDark: #283B57;
+  --colorMedium: #67788E;
+  --colorLight: #D5D8DF;
+  --colorLightest: #F7F8F8;
+  --colorWhite: #fff;
+  --colorRed: var(--colorSBRedFlat);
+  --colorGreen: var(--colorSuccessFlat);
+  --colorYellow: var(--colorErrorFlat);
+
+  --colorSBRed: linear-gradient(135deg, #F24F36 0%, #F35437 37.81%, #F99941 100%);
+  --colorSBRedHover: linear-gradient(135deg, #CE3018 0%, #E96F00 100%);
+  --colorSBRedFlat:#EC4E36;
+  --colorSBRedFlatHover: #CB3B25;
+
+  --colorError: linear-gradient(315deg, #FCD95A 0%, #FB8F1E 100%);
+  --colorErrorHover: linear-gradient(315deg, #EEB529 0%, #D76825 100%);
+  --colorErrorFlat: #F9B141;
+  --colorErrorFlatHover: #DD911C;
+
+  --colorSuccess: linear-gradient(315deg, #00CE8A 0%, #0CA2A9 100%);
+  --colorSuccessHover: linear-gradient(315deg, #008388 0%, #00BA7D 100%);
+  --colorSuccessFlat: #07BEA5;
+  --colorSuccessFlatHover: #00A38D;
+
+  --colorInfo: linear-gradient(135deg, #0174CC 0%, #50AFFF 100%);
+  --colorInfoHover: linear-gradient(135deg, #00508E 0%, #0091E5 100%);
+  --colorInfoFlat: #0D78D3;
+  --colorInfoFlatHover: #308BD7;
+
+  --colorPlaceholderGradient: linear-gradient(270deg, var(--colorCasper) 0%, #F1F1F1 100%);
+  --colorNearDark: color-mod(#182942 b(78%));
+  --colorDisabled: color-mod(#182942 alpha(50%));
+}

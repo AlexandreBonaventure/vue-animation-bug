@@ -1,0 +1,10 @@
+@import "./colors.css";
+@import "./tachyons.css";
+@import "./misc.css";
+
+:root {
+  --fontSansSerif: 'Open Sans', sans-serif;
+  --lightDropShadow: 0 3px 36px 0 rgba(129,152,181,0.16);
+  --dropShadow: 0 3px 6px 0 rgba(0,0,0,0.11);
+  --radius: 0.5rem;
+}

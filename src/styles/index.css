@@ -1,0 +1,19 @@
+@import "./reset.css";
+@import "./variables/index.css";
+@import "./sbvr.css";
+@import "./grids.css";
+@import "./utils.css";
+
+html {
+  font-family: var(--fontSansSerif);
+  color: var(--colorDarkest);
+  position: relative;
+  font-size: 10px;
+  font-size: 62.5%;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+    font-size: 1.6rem;
+}
